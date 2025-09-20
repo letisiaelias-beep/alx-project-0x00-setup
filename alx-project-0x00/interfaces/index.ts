@@ -1,4 +1,3 @@
-}
 export interface User {
   id: number;
   name: string;
@@ -7,4 +6,10 @@ export interface User {
 
 export interface PillProps {
   title: string
+}
+
+// interfaces/index.tsx
+export interface ButtonProps {
+  title: string;
+  styles: string;
 }
